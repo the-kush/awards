@@ -95,9 +95,9 @@ const Hero = () => {
                 loop muted className='absolute left-0 top-0 size-full object-cover object-center' onLoadedData={handleVideoLoad}/>
             </div>
             <h1 className='special-font hero-heading absolute bottom-5 right-5 text-blue-75'>G<b>a</b>ming</h1>
-            <div className='absolute left-0 top-0 z-40 size-full'>
+            <div className='absolute left-0 top-7 z-40 size-full'>
                 <div className='mt-24 px-5 sm:px-10'>
-                <h4 className='special-font hero-heading absolute !text-3xl top-12 left-10 text-blue-75'>redefi<b>n</b>e</h4>
+                <h4 className='special-font hero-heading absolute !text-5xl top-12 left-10 text-blue-75'>redefi<b>n</b>e</h4>
                 <p className='mb-5 max-w-64 font-robert-regular text-blue-100'>Enter the Metagame <br /> Unleash the Play Economy </p>
                 <button 
                     id='watch-trailer'
