@@ -58,7 +58,7 @@ const BentoCard = ({ src, title, description }) => {
 
 const Features = () => {
   return (
-    <section className='bg-black pb-52'>
+    <section className='bg-black pb-52' id="features">
       <div className='container mx-auto px-3 md:px-19'>
         <div className='px-5 py-32'>
             <p className='font-circular-web text-lg text-blue-50'>Into the Metagame Layer</p>

@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react'
 import { useWindowScroll } from 'react-use';
 import gsap from 'gsap';
 
-const navItems = ["Home", "About", "Features", "Contact Us", "Register"];
+const navItems = ["Home", "About", "Features", "Contact", "Register"];
 
 const Navbar = () => {
     const [isAudioPlaying, setIsAudioPlaying] = useState(false);
@@ -27,7 +27,7 @@ const Navbar = () => {
             audioElementRef.current.pause();
         }
     }, [isAudioPlaying])
-    
+
     useEffect(() => {
         if(currentScrollY === 0){
             setIsNavVisible(true);
